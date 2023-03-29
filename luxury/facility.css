@@ -1,0 +1,406 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("./Montserrat/font-converted/Montserrat-Thin.woff2");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./Montserrat/font-converted/Montserrat-Light.woff2");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./Montserrat/font-converted/Montserrat-Regular.woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./Montserrat/font-converted/Montserrat-Medium.woff2");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./Montserrat/font-converted/Montserrat-SemiBold.woff2");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./Montserrat/font-converted/Montserrat-Bold.woff2");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Adobe Garamond Pro";
+    src: url("./adobe/AGaramondPro-Regular.woff2") format("woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Adobe Garamond Pro";
+    src: url("./adobe/AGaramondPro-Bold.woff2") format("woff2");
+    font-weight: 700;
+}
+
+
+header {
+    background-image: url(./images/Mask\ Group\(1\).png);
+    background-size: cover;
+    padding-bottom: 38px;
+}
+
+.div-one {
+    display: flex;
+    padding-left: 213px;
+    padding-right: 210px;
+}
+
+.home {
+    margin-left: 60px;
+}
+
+ul>li {
+    display: inline;
+    list-style: none;
+    color: white;
+    justify-content: end;
+    margin-right: 88px;
+}
+
+.home li {
+    margin-top: 59px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 25px;
+    color: #ffffff;
+    font-style: normal;
+}
+
+.div-two {
+    color: white;
+    padding-left: 213px;
+    padding-top: 342px;
+}
+
+.welcome {
+    font-family: 'Montserrat';
+    font-size: normal;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.luxury {
+    font-family: 'Adobe Garamond Pro';
+    font-weight: 400px;
+    font-size: 140px;
+    line-height: 185px;
+    margin-top: -80px;
+}
+
+.hotel {
+    font-weight: 700px;
+    font-size: 60px;
+    line-height: 72px;
+    font-family: 'Adobe Garamond Pro';
+    letter-spacing: 0.8rem;
+    margin-top: -176px;
+}
+
+.book {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: -60px;
+}
+
+.btn__wrapper>button {
+    background-color: #E0B973;
+    border: none;
+    color: white;
+    border-radius: 1px;
+    font-family: 'Montserrat';
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    padding-top: 16px;
+    padding-left: 20px;
+    padding-right: 34px;
+    padding-bottom: 12px;
+    border-radius: 6px;
+}
+
+.btn-img {
+    height: 16px;
+    margin-top: 2px;
+    margin-right: 18px;
+
+}
+
+.Scroll {
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    font-family: 'Adobe Garamond Pro';
+    font-size: 24px;
+}
+
+.scroll-img__container {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.img {
+    height: 32px;
+}
+
+.btn__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.section-one {
+    text-align: center;
+}
+
+.FACILITIES {
+    font-family: 'Adobe Garamond Pro';
+    font-weight: 700px;
+    font-size: 60px;
+    margin-top: 82px;
+    color: #14274A;
+}
+
+.div-three {
+    font-family: 'Montserrat';
+    font-weight: 400px;
+    font-size: 20px;
+    color: #14274A;
+}
+
+.humphrey {
+    /* margin-left: 173px;
+margin-right: 167px; */
+    width: 1380px;
+}
+
+.thegym {
+    font-family: 'Montserrat';
+    color: #14274A;
+    font-weight: 700;
+    font-size: 48px;
+    text-transform: uppercase;
+    position: absolute;
+    /* transform: translateY(-82px); */
+    /* transform: translateX(-320px -82px); */
+    transform: translate(-320px, -66px);
+    background-color: white;
+    width: 800px;
+}
+
+.img-two {
+    width: 1380px;
+    margin-top: 186px;
+    text-align: center;
+}
+
+.the {
+    font-family: 'Montserrat';
+    color: #14274A;
+    font-weight: 700;
+    font-size: 48px;
+    text-transform: uppercase;
+    position: absolute;
+    background-color: white;
+    transform: translate(-320px, -66px);
+    width: 681px;
+    height: 76px;
+    position: absolute
+}
+
+.spa {
+    font-family: 'Montserrat';
+    color: #14274A;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.big-tiny {
+    width: 1380px;
+    margin-top: 186px;
+    text-align: center;
+}
+
+.swimming {
+    font-family: 'Montserrat';
+    color: #14274A;
+    font-weight: 700;
+    font-size: 48px;
+    text-transform: uppercase;
+    position: absolute;
+    background-color: white;
+    transform: translate(-320px, -66px);
+    width: 681px;
+    height: 76px;
+    position: absolute
+}
+
+.jason-leung {
+    width: 1380px;
+    margin-top: 186px;
+    text-align: center;
+}
+
+.restaurant {
+    font-family: 'Montserrat';
+    color: #14274A;
+    font-weight: 700;
+    font-size: 48px;
+    text-transform: uppercase;
+    position: absolute;
+    background-color: white;
+    transform: translate(-320px, -66px);
+    width: 681px;
+    height: 76px;
+    position: absolute
+}
+
+.bianca-jordan {
+    width: 1380px;
+    margin-top: 186px;
+    text-align: center;
+}
+
+.laundry {
+    font-family: 'Montserrat';
+    color: #14274A;
+    font-weight: 700;
+    font-size: 48px;
+    text-transform: uppercase;
+    position: absolute;
+    background-color: white;
+    transform: translate(-320px, -66px);
+    width: 681px;
+    height: 76px;
+    position: absolute
+}
+
+.div-eight {
+    text-align: center;
+    margin-top: 115px;
+}
+
+.butt {
+    background-color: #E0B973;
+    border: none;
+    color: white;
+    padding: 20px 24px;
+    border-radius: 12px;
+}
+
+.footer {
+
+    background-image: url(./images/Union\ 3.png);
+    background-size: contain;
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.div-six {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 185px;
+    padding-bottom: 20px;
+}
+
+.lux {
+    font-family: 'Adobe Garamond Pro';
+    font-weight: 700px;
+    font-size: 25px;
+    color: white;
+    padding-top: 44px;
+}
+
+.hol {
+    font-family: 'Adobe Garamond Pro';
+    font-weight: 700px;
+    font-size: 9px;
+    letter-spacing: 0.6px;
+    color: white;
+    padding-left: 20px;
+}
+
+.Evergreen {
+    font-family: 'Montserrat';
+    font-weight: 400px;
+    font-size: 14px;
+    padding-top: 22px;
+    color: white;
+}
+
+.div-seven {
+    color: white;
+    padding-top: 44px;
+}
+
+.logo-container {
+    display: flex;
+    color: white;
+    align-items: center;
+    padding-top: 44px;
+}
+
+.logo {
+    margin-left: 16px;
+}
+
+.logo-container span>img {
+    width: 20px;
+    height: 21px;
+}
+
+.Subscribe {
+    margin-right: 325px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 400px;
+    font-size: 16px;
+    padding-bottom: 30px;
+
+
+}
+
+input[type="email"] {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 16px;
+    background-color: transparent;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    border-color: #E0B973;
+    outline: none;
+}
+
+button[type="submit"] {
+    background-color: #E0B973;
+    border: none;
+    width: 52px;
+}
+
+
+.mail-submit {
+    display: flex;
+}
+
+.div {
+    padding-top: 44px;
+}

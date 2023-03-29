@@ -1,0 +1,426 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("./Montserrat/font-converted/Montserrat-Thin.woff2");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./Montserrat/font-converted/Montserrat-Light.woff2");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./Montserrat/font-converted/Montserrat-Regular.woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./Montserrat/font-converted/Montserrat-Medium.woff2");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./Montserrat/font-converted/Montserrat-SemiBold.woff2");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./Montserrat/font-converted/Montserrat-Bold.woff2");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Adobe Garamond Pro";
+    src: url("./adobe/AGaramondPro-Regular.woff2") format("woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Adobe Garamond Pro";
+    src: url("./adobe/AGaramondPro-Bold.woff2") format("woff2");
+    font-weight: 700;
+}
+
+
+header {
+    background-image: url(./images/hero-image3.png);
+    background-size: cover;
+    padding-bottom: 38px;
+}
+
+
+ul.home {
+    margin-left: 60px;
+}
+
+ul>li {
+    display: inline;
+    list-style: none;
+    color: white;
+    justify-content: end;
+    margin-right: 88px;
+}
+
+.home li {
+    margin-top: 59px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 25px;
+    color: #ffffff;
+    font-style: normal;
+}
+
+.div-one {
+    display: flex;
+    padding-left: 213px;
+    padding-right: 210px;
+}
+
+.div-two {
+    color: white;
+    padding-left: 213px;
+    padding-top: 342px;
+}
+
+.welcome {
+    font-family: 'Montserrat';
+    font-size: normal;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.luxury {
+    font-family: 'Adobe Garamond Pro';
+    font-weight: 400px;
+    font-size: 140px;
+    line-height: 185px;
+    margin-top: -80px;
+}
+
+.hotel {
+    font-weight: 700px;
+    font-size: 60px;
+    line-height: 72px;
+    font-family: 'Adobe Garamond Pro';
+    letter-spacing: 0.8rem;
+    margin-top: -176px;
+}
+
+.book {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: -60px;
+}
+
+.btn__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.btn__wrapper>button {
+    background-color: #E0B973;
+    border: none;
+    color: white;
+    border-radius: 1px;
+    font-family: 'Montserrat';
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    padding-top: 16px;
+    padding-left: 20px;
+    padding-right: 34px;
+    padding-bottom: 12px;
+    border-radius: 6px;
+}
+
+.btn-img {
+    height: 16px;
+    margin-top: 2px;
+    margin-right: 18px;
+}
+
+.Scroll {
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    font-family: 'Adobe Garamond Pro';
+    font-size: 24px;
+}
+
+.scroll-img__container {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.img {
+    height: 32px;
+}
+
+.ROOMSANDRATES {
+    text-align: center;
+}
+
+.room {
+    font-family: 'Adobe Garamond Pro';
+    font-weight: 700px;
+    font-size: 60px;
+    margin-top: 81px;
+    color: #14274A
+}
+
+.Eachofourbright {
+    font-family: 'Roboto';
+    font-weight: 400px;
+    font-size: 25px;
+    color: #14274A;
+    margin-top: 29px;
+    margin-bottom: 81px;
+}
+
+.div-ten {
+    margin-left: 160px;
+    margin-right: 158px;
+}
+
+.single {
+    padding-left: 575px;
+    padding-right: 572px;
+    padding-top: 41px;
+    padding-bottom: 41px;
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #14274A;
+    margin-top: -5px;
+}
+
+#single-room__section {
+    background-color: #14274A;
+}
+
+#single-room__section>img {
+    width: 100%;
+}
+
+div.single-room-text__wrapper {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-style: bold;
+    font-size: 60px;
+    transform: translateY(-52px);
+
+}
+
+div.single-room-text__wrapper h3 {
+    /* margin: 0;
+    padding: 0; */
+}
+
+section#room-details__section {
+    width: 100%;
+}
+
+.room-details__section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.w-40 {
+    width: 28px;
+}
+
+.view-room {
+    display: flex;
+    align-items: center;
+}
+
+
+.view-room p {
+    margin-left: 12px;
+    font-family: "Montserrat";
+    color: #14274A;
+    font-weight: bold;
+}
+
+.room-details__section button {
+    background: #E0B973;
+    border: inherit;
+    color: white;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 12px 24px;
+}
+
+
+.slider-icon {
+    text-align: center;
+    transform: translateY(-32px);
+}
+
+.slider-icon span {
+    /* background-color: white; */
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+
+.slider-icon span:nth-child(1) {
+    background-color: white;
+}
+
+.mask-five {
+    margin-left: 160px;
+    margin-right: 158px;
+    margin-top: 159px;
+}
+
+.double {
+    padding-left: 570px;
+    padding-right: 572px;
+    /* padding-top: 41px;
+    padding-bottom: 41px; */
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #14274A;
+    margin-top: -90px;
+    margin-left: 160px;
+}
+
+.div-five {
+    text-align: center;
+    margin-top: 115px;
+}
+
+.butt {
+    background-color: #E0B973;
+    border: none;
+    color: white;
+    padding: 20px 24px;
+    border-radius: 12px;
+}
+.footer {
+
+        background-image: url(./images/Union\ 3.png);
+        background-size: contain;
+        padding-top: 20px;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+    .div-six {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 185px;
+        padding-bottom: 20px;
+    }
+
+    .lux {
+        font-family: 'Adobe Garamond Pro';
+        font-weight: 700px;
+        font-size: 25px;
+        color: white;
+        padding-top: 44px;
+    }
+
+    .hol {
+        font-family: 'Adobe Garamond Pro';
+        font-weight: 700px;
+        font-size: 9px;
+        letter-spacing: 0.6px;
+        color: white;
+        padding-left: 20px;
+    }
+
+    .Evergreen {
+        font-family: 'Montserrat';
+        font-weight: 400px;
+        font-size: 14px;
+        padding-top: 22px;
+        color: white;
+    }
+
+    .div-seven {
+        color: white;
+        padding-top: 44px;
+    }
+
+    .logo-container {
+        display: flex;
+        color: white;
+        align-items: center;
+        padding-top: 44px;
+    }
+
+    .logo {
+        margin-left: 16px;
+    }
+
+    .logo-container span>img {
+        width: 20px;
+        height: 21px;
+    }
+
+    .Subscribe {
+        margin-right: 325px;
+        color: white;
+        font-family: 'Montserrat';
+        font-weight: 400px;
+        font-size: 16px;
+        padding-bottom: 30px;
+
+
+    }
+
+    input[type="email"] {
+        padding-left: 16px;
+        padding-top: 12px;
+        padding-bottom: 16px;
+        background-color: transparent;
+        color: white;
+        font-family: 'Montserrat';
+        font-size: 16px;
+        border-color: #E0B973;
+        outline: none;
+    }
+
+    button[type="submit"] {
+        background-color: #E0B973;
+        border: none;
+        width: 52px;
+    }
+
+
+    .mail-submit {
+        display: flex;
+    }
+
+    .div {
+        padding-top: 44px;
+    }
